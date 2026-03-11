@@ -1,0 +1,121 @@
+body{
+font-family: Arial;
+background-color:#a8a9aa;
+margin:20px;
+}
+
+.profile-container {
+  display: flex;         
+  gap: 300px;             
+}
+
+.links {
+  display: flex;  
+   gap: 50px;       
+}
+
+.btn-primary {
+  display: inline-block;
+  background-color: rgb(3, 3, 126); 
+  color: white !important;  
+  padding: 8px 15px;        
+  text-decoration: none;     
+  border-radius: 10px;       
+  font-weight: 300;
+  transition: 0.3s;        
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn-primary:hover {
+  background-color:rgb(3, 3, 110); 
+  transform: translateY(-2px);
+}
+
+h1{
+color:rgb(3, 3, 126);
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2, h3{
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p{
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin-bottom: 50px;
+line-height: 1.4;      
+max-width: 800px;      /* Prevents lines from being too long and tiring to read */
+font-size: 1.1rem;     
+text-align: justify;   /* Optional: makes the edges straight like a book */
+}
+
+table{
+border-collapse: collapse;
+width:50%;
+background-color: #c1c0c0;
+margin-bottom: 50px;
+}
+
+th, td{
+border:1px solid black;
+padding:10px;
+text-align:center;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a{
+text-decoration:none;
+color:rgb(3, 3, 126);
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img{
+border-radius:10px;
+}
+
+li::marker {
+  color: rgb(3, 3, 126); 
+  font-size: 1.2em;
+}
+
+li {
+  padding: 3px;
+  font-size: 1.1rem; 
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ul{
+    margin-bottom: 50px;
+}
+
+form {
+  max-width: 400px;
+  padding: 20px;
+  font-weight: 700;
+}
+
+input, textarea {
+  width: 100%; 
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; 
+}
+
+button[type="submit"] {
+  background-color: rgb(3, 3, 126);
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  font-size: 16px;
+  transition: 0.3s;
+  border-radius: 10px;   
+  font-weight: 300;   
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+  margin-bottom: 10px;
+}
+
+button[type="submit"]:hover {
+  background-color:rgb(3, 3, 110);
+}
